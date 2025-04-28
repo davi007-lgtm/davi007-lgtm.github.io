@@ -1,30 +1,31 @@
 # Portafolio de Jeaustin Hernandez
 
-Este es mi portafolio personal como desarrollador de aplicaciones Android. Aquí podrás encontrar información sobre mis proyectos, habilidades y experiencia.
+¡Hola! Soy Jeaustin Hernandez y estoy en constante aprendizaje en el mundo del desarrollo de software. Este portafolio es un espacio donde comparto mis avances, proyectos y objetivos como programador.
 
-## Características
+## Sobre mí
 
-- Diseño moderno y responsivo
-- Sección de proyectos Android
-- Formulario de contacto
-- Animaciones y efectos visuales
-- Optimizado para dispositivos móviles
+Actualmente me encuentro aprendiendo sobre desarrollo web y móvil. Me apasiona la tecnología y tengo muchas ganas de seguir creciendo y adquiriendo nuevas habilidades.
 
-## Tecnologías utilizadas
+## Habilidades
 
-- HTML5
-- CSS3
-- JavaScript
-- AOS (Animate On Scroll)
-- Font Awesome
+- Kotlin
+- Java
+- Python
+- HTML5 y CSS3 (básico)
+- JavaScript (básico)
+- Ganas de aprender y mejorar cada día
 
-## Cómo ejecutar localmente
+## Proyectos
 
-1. Clona este repositorio
-2. Abre el archivo `index.html` en tu navegador
+- Ejercicios y pequeños proyectos de práctica (puedes verlos en mi [GitHub](https://github.com/davi007-lgtm))
+
+## Objetivos
+
+- Mejorar mis conocimientos en desarrollo web
+- Aprender desarrollo de aplicaciones móviles (Android)
+- Participar en proyectos colaborativos
 
 ## Contacto
 
-- Email: [tu@email.com](mailto:tu@email.com)
-- LinkedIn: [Tu Perfil](https://linkedin.com/in/tu-perfil)
-- GitHub: [Tu Usuario](https://github.com/tu-usuario) 
+- Email: [jeaustinhernandez@gmail.com](mailto:jeaustinhernandez@gmail.com)
+- GitHub: [davi007-lgtm](https://github.com/davi007-lgtm) 
