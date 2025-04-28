@@ -3,12 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio de Jeaustin Hernandez - Desarrollador de Software especializado en Android y desarrollo web">
+    <meta name="keywords" content="desarrollador, software, android, kotlin, java, python, web development">
+    <meta name="author" content="Jeaustin Hernandez">
+    <meta property="og:title" content="Portafolio | Jeaustin Hernandez">
+    <meta property="og:description" content="Desarrollador de Software especializado en Android y desarrollo web">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://davi007-lgtm.github.io">
     <title>Portafolio | Jeaustin Hernandez</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 </head>
 <body>
+    <div class="theme-switch-wrapper">
+        <label class="theme-switch" for="checkbox">
+            <input type="checkbox" id="checkbox" />
+            <div class="slider round">
+                <i class="fas fa-sun"></i>
+                <i class="fas fa-moon"></i>
+            </div>
+        </label>
+    </div>
     <header>
         <nav>
             <div class="logo">Jeaustin Hernandez</div>
@@ -36,9 +52,6 @@
                     <a href="#contacto" class="btn secondary">Contactar</a>
                 </div>
             </div>
-            <div class="hero-image" data-aos="fade-left">
-                <img src="images/profile.png" alt="Foto de perfil">
-            </div>
         </section>
 
         <section id="sobre-mi" class="about">
@@ -56,46 +69,76 @@
                 <div class="skill-card" data-aos="fade-up">
                     <i class="fab fa-android"></i>
                     <h3>Kotlin</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" style="width: 80%"></div>
+                    </div>
                     <p>Desarrollo de apps Android</p>
                 </div>
                 <div class="skill-card" data-aos="fade-up" data-aos-delay="100">
                     <i class="fab fa-java"></i>
                     <h3>Java</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" style="width: 75%"></div>
+                    </div>
                     <p>Programación orientada a objetos</p>
                 </div>
                 <div class="skill-card" data-aos="fade-up" data-aos-delay="200">
                     <i class="fab fa-python"></i>
                     <h3>Python</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" style="width: 70%"></div>
+                    </div>
                     <p>Automatización y scripts</p>
                 </div>
                 <div class="skill-card" data-aos="fade-up" data-aos-delay="300">
                     <i class="fab fa-html5"></i>
                     <h3>HTML5 y CSS3</h3>
-                    <p>Maquetación y estilos básicos</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar" style="width: 85%"></div>
+                    </div>
+                    <p>Maquetación y estilos</p>
                 </div>
                 <div class="skill-card" data-aos="fade-up" data-aos-delay="400">
                     <i class="fab fa-js"></i>
                     <h3>JavaScript</h3>
-                    <p>Interactividad básica en la web</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar" style="width: 65%"></div>
+                    </div>
+                    <p>Interactividad web</p>
+                </div>
+                <div class="skill-card" data-aos="fade-up" data-aos-delay="500">
+                    <i class="fab fa-git"></i>
+                    <h3>Git</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" style="width: 75%"></div>
+                    </div>
+                    <p>Control de versiones</p>
+                </div>
+            </div>
+            <div class="certifications" data-aos="fade-up">
+                <h3>Certificaciones</h3>
+                <div class="cert-grid">
+                    <div class="cert-card">
+                        <i class="fas fa-certificate"></i>
+                        <h4>Desarrollo Android</h4>
+                        <p>Google Developers</p>
+                    </div>
+                    <div class="cert-card">
+                        <i class="fas fa-certificate"></i>
+                        <h4>Web Development</h4>
+                        <p>FreeCodeCamp</p>
+                    </div>
                 </div>
             </div>
         </section>
 
         <section id="proyectos" class="projects">
             <h2 data-aos="fade-up">Proyectos de Aprendizaje</h2>
-            <div class="projects-grid">
-                <div class="project-card" data-aos="fade-up">
-                    <div class="project-info">
-                        <h3>Ejercicios y Prácticas</h3>
-                        <p>Pequeños proyectos y ejercicios realizados durante mi aprendizaje. Puedes verlos en mi GitHub.</p>
-                        <div class="project-links">
-                            <a href="https://github.com/davi007-lgtm" class="github-btn" target="_blank">
-                                <i class="fab fa-github"></i> Ver en GitHub
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Puedes agregar más proyectos aquí -->
+            <div class="projects-github" data-aos="fade-up">
+                <p>¿Quieres ver mis proyectos completos y actualizados? Visita mi perfil de GitHub donde comparto todo mi trabajo, ejercicios y experimentos de programación.</p>
+                <a href="https://github.com/davi007-lgtm" class="btn primary" target="_blank">
+                    <i class="fab fa-github"></i> Ver todos mis proyectos en GitHub
+                </a>
             </div>
         </section>
 
@@ -117,10 +160,30 @@
                     </div>
                 </div>
                 <form id="contact-form" data-aos="fade-left">
-                    <input type="text" placeholder="Nombre" required>
-                    <input type="email" placeholder="Email" required>
-                    <input type="text" placeholder="Asunto" required>
-                    <textarea placeholder="Mensaje" required></textarea>
+                    <div class="form-group">
+                        <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Email" required>
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="asunto" name="asunto" placeholder="Asunto" required>
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="mensaje" name="mensaje" placeholder="Mensaje" required></textarea>
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="form-message success-message" style="display: none;">
+                        <i class="fas fa-check-circle"></i>
+                        <span>¡Mensaje enviado con éxito!</span>
+                    </div>
+                    <div class="form-message error-message" style="display: none;">
+                        <i class="fas fa-exclamation-circle"></i>
+                        <span>Error al enviar el mensaje. Por favor, inténtalo de nuevo.</span>
+                    </div>
                     <button type="submit" class="btn primary">
                         <i class="fas fa-paper-plane"></i> Enviar Mensaje
                     </button>
